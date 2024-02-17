@@ -6,8 +6,12 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  let val = () => {
+    console.log("ok")
+  }
+
   return (
-    
+
     <>
       <div>
         <a href="https://vitejs.dev" target="_blank">
